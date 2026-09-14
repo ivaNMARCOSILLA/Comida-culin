@@ -1,0 +1,552 @@
+[
+  {
+    "id": 1,
+    "nombre": "Paella Valenciana Auténtica",
+    "region": "Valencia",
+    "categoria": "Arroces",
+    "tiempo": "90 min",
+    "dificultad": "Media",
+    "imagen": "",
+    "desc": "La auténtica con garrofón, judía plana y pollo y conejo.",
+    "ingredientes": [
+      "400g arroz bomba",
+      "500g pollo",
+      "300g conejo",
+      "200g judía verde plana",
+      "100g garrofón",
+      "2 tomates rallados",
+      "Azafrán",
+      "Romero",
+      "Aceite oliva",
+      "Agua"
+    ],
+    "pasos": [
+      "Sofreír carnes",
+      "Añadir verdura y tomate",
+      "Añadir agua y hervir 20min",
+      "Añadir arroz en cruz y azafrán",
+      "Cocción 18min sin remover",
+      "Reposo 5min"
+    ],
+    "imagen_file": "/static/img/1.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Tortilla Española Jugosa",
+    "region": "Toda España",
+    "categoria": "Tapas",
+    "tiempo": "40 min",
+    "dificultad": "Fácil",
+    "imagen": "",
+    "desc": "Con cebolla caramelizada, jugosa por dentro.",
+    "ingredientes": [
+      "6 huevos",
+      "800g patatas",
+      "1 cebolla grande",
+      "Aceite oliva virgen extra",
+      "Sal"
+    ],
+    "pasos": [
+      "Confitar patata y cebolla en aceite",
+      "Escurrir y mezclar con huevo batido",
+      "Cuajar a fuego medio 3min por lado"
+    ],
+    "imagen_file": "/static/img/2.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Fabada Asturiana",
+    "region": "Asturias",
+    "categoria": "Guisos",
+    "tiempo": "180 min",
+    "dificultad": "Fácil",
+    "imagen": "",
+    "desc": "Faba de la Granja con compango.",
+    "ingredientes": [
+      "500g fabes",
+      "2 chorizos asturianos",
+      "2 morcillas",
+      "200g lacón",
+      "Azafrán"
+    ],
+    "pasos": [
+      "Remojo fabes 12h",
+      "Cocción lenta con compango 2.5h",
+      "Desespumar y asustar con agua fría"
+    ],
+    "imagen_file": "/static/img/3.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Pulpo a la Gallega",
+    "region": "Galicia",
+    "categoria": "Pescados",
+    "tiempo": "60 min",
+    "dificultad": "Media",
+    "imagen": "",
+    "desc": "Pulpo tierno con pimentón de la Vera.",
+    "ingredientes": [
+      "1 pulpo 1.5kg",
+      "Patatas cachelos",
+      "Pimentón dulce y picante",
+      "Aceite oliva",
+      "Sal gruesa"
+    ],
+    "pasos": [
+      "Asustar pulpo 3 veces",
+      "Cocer 35min",
+      "Cocer patatas",
+      "Cortar y aliñar"
+    ],
+    "imagen_file": "/static/img/4.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Gazpacho Andaluz",
+    "region": "Andalucía",
+    "categoria": "Frios",
+    "tiempo": "20 min",
+    "dificultad": "Fácil",
+    "imagen": "",
+    "desc": "Sopa fría de tomate, pepino y pimiento.",
+    "ingredientes": [
+      "1kg tomate pera",
+      "1 pepino",
+      "1 pimiento verde",
+      "1 diente ajo",
+      "50ml vinagre Jerez",
+      "100ml aceite",
+      "Pan"
+    ],
+    "pasos": [
+      "Triturar todo",
+      "Colar y emulsionar aceite",
+      "Enfriar 2h"
+    ],
+    "imagen_file": "/static/img/5.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Ajoblanco Malagueño",
+    "region": "Andalucía",
+    "categoria": "Frios",
+    "tiempo": "25 min",
+    "dificultad": "Fácil",
+    "imagen": "",
+    "desc": "La joya desconocida: sopa fría de almendras.",
+    "ingredientes": [
+      "200g almendra cruda",
+      "100g miga pan",
+      "1 ajo",
+      "100ml aceite",
+      "30ml vinagre",
+      "Uvas moscatel"
+    ],
+    "pasos": [
+      "Triturar almendras ajo y pan",
+      "Emulsionar como mayonesa",
+      "Servir con uvas y hielo"
+    ],
+    "imagen_file": "/static/img/6.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Calçots con Romesco",
+    "region": "Cataluña",
+    "categoria": "Verduras",
+    "tiempo": "50 min",
+    "dificultad": "Media",
+    "imagen": "",
+    "desc": "Cebolla tierna a la brasa, temporada enero-abril.",
+    "ingredientes": [
+      "20 calçots",
+      "Salsa romesco: ñoras, avellanas, tomate asado, ajo"
+    ],
+    "pasos": [
+      "Quemar calçots al fuego vivo",
+      "Envolver en periódico 15min",
+      "Pelar y mojar en romesco"
+    ],
+    "imagen_file": "/static/img/7.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Marmitako de Bonito",
+    "region": "País Vasco",
+    "categoria": "Guisos",
+    "tiempo": "60 min",
+    "dificultad": "Fácil",
+    "imagen": "",
+    "desc": "Guiso marinero vasco de patata y bonito del norte.",
+    "ingredientes": [
+      "600g bonito",
+      "800g patata",
+      "Pimiento choricero",
+      "Cebolla",
+      "Pimiento verde"
+    ],
+    "pasos": [
+      "Sofrito",
+      "Añadir patata chascada",
+      "Cocción y añadir bonito al final 5min"
+    ],
+    "imagen_file": "/static/img/8.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Escalivada",
+    "region": "Cataluña",
+    "categoria": "Verduras",
+    "tiempo": "60 min",
+    "dificultad": "Fácil",
+    "imagen": "",
+    "desc": "Verduras asadas con humo.",
+    "ingredientes": [
+      "Berenjena",
+      "Pimiento rojo",
+      "Cebolla",
+      "Aceite",
+      "Anchoas opcional"
+    ],
+    "pasos": [
+      "Asar a 200º 40min",
+      "Pelar y tiras",
+      "Aliñar"
+    ],
+    "imagen_file": "/static/img/9.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Cocido Madrileño Completo",
+    "region": "Madrid",
+    "categoria": "Guisos",
+    "tiempo": "180 min",
+    "dificultad": "Media",
+    "imagen": "",
+    "desc": "Tres vuelcos: sopa, garbanzos y carnes.",
+    "ingredientes": [
+      "500g garbanzos",
+      "Morcillo",
+      "Gallina",
+      "Chorizo",
+      "Morcilla",
+      "Tocino",
+      "Repollo",
+      "Fideos"
+    ],
+    "pasos": [
+      "Remojo",
+      "Cocción 2h carnes y garbanzos",
+      "Sopa con fideos",
+      "Repollo rehogado"
+    ],
+    "imagen_file": "/static/img/10.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Patatas Bravas Auténticas",
+    "region": "Madrid/Cataluña",
+    "categoria": "Tapas",
+    "tiempo": "40 min",
+    "dificultad": "Fácil",
+    "imagen": "",
+    "desc": "Con salsa brava de verdad, no ketchup.",
+    "ingredientes": [
+      "Patatas",
+      "Salsa: cebolla, pimentón picante, caldo, vinagre, harina"
+    ],
+    "pasos": [
+      "Freír patata en 2 tiempos",
+      "Sofreír salsa brava",
+      "Alioli opcional"
+    ],
+    "imagen_file": "/static/img/11.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Croquetas de Jamón Ibérico",
+    "region": "Toda España",
+    "categoria": "Tapas",
+    "tiempo": "90 min",
+    "dificultad": "Media",
+    "imagen": "",
+    "desc": "Bechamel cremosa y jamón de bellota.",
+    "ingredientes": [
+      "Jamón ibérico 200g",
+      "Harina 100g",
+      "Mantequilla 100g",
+      "Leche 1L",
+      "Huevo y pan rallado"
+    ],
+    "pasos": [
+      "Hacer roux",
+      "Añadir leche poco a poco",
+      "Añadir jamón",
+      "Enfriar 4h",
+      "Formar y freír"
+    ],
+    "imagen_file": "/static/img/12.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Pimientos de Padrón",
+    "region": "Galicia",
+    "categoria": "Tapas",
+    "tiempo": "10 min",
+    "dificultad": "Fácil",
+    "imagen": "",
+    "desc": "Uns pican e outros non.",
+    "ingredientes": [
+      "Pimientos padrón",
+      "Sal gruesa",
+      "Aceite"
+    ],
+    "pasos": [
+      "Freír con tapa 3min",
+      "Sal gorda"
+    ],
+    "imagen_file": "/static/img/13.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Lacón con Grelos",
+    "region": "Galicia",
+    "categoria": "Carnes",
+    "tiempo": "150 min",
+    "dificultad": "Fácil",
+    "imagen": "",
+    "desc": "Plato de Entroido gallego.",
+    "ingredientes": [
+      "Lacón 1kg",
+      "Grelos",
+      "Cachelos",
+      "Chorizo"
+    ],
+    "pasos": [
+      "Desalar lacón 48h",
+      "Cocer lacón 90min",
+      "Añadir grelos y patatas"
+    ],
+    "imagen_file": "/static/img/14.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Migas Extremeñas",
+    "region": "Extremadura",
+    "categoria": "Guisos",
+    "tiempo": "45 min",
+    "dificultad": "Fácil",
+    "imagen": "",
+    "desc": "Pastoril, con panceta y pimiento.",
+    "ingredientes": [
+      "Pan duro 500g",
+      "Ajos",
+      "Panceta",
+      "Chorizo",
+      "Pimiento"
+    ],
+    "pasos": [
+      "Remojar miga",
+      "Freír ajos y panceta",
+      "Saltear migas hasta sueltas"
+    ],
+    "imagen_file": "/static/img/15.jpg"
+  },
+  {
+    "id": 16,
+    "nombre": "Tarta de Santiago",
+    "region": "Galicia",
+    "categoria": "Postres",
+    "tiempo": "50 min",
+    "dificultad": "Fácil",
+    "imagen": "",
+    "desc": "Almendra sin harina, con cruz.",
+    "ingredientes": [
+      "250g almendra molida",
+      "200g azúcar",
+      "5 huevos",
+      "Ralladura limón",
+      "Azúcar glass"
+    ],
+    "pasos": [
+      "Batir huevos y azúcar",
+      "Añadir almendra",
+      "Hornear 35min 180º",
+      "Poner cruz con plantilla"
+    ],
+    "imagen_file": "/static/img/16.jpg"
+  },
+  {
+    "id": 17,
+    "nombre": "Crema Catalana",
+    "region": "Cataluña",
+    "categoria": "Postres",
+    "tiempo": "30 min",
+    "dificultad": "Media",
+    "imagen": "",
+    "desc": "La madre de la crème brûlée.",
+    "ingredientes": [
+      "1L leche",
+      "6 yemas",
+      "100g azúcar",
+      "Maicena",
+      "Canela y limón"
+    ],
+    "pasos": [
+      "Infusionar leche",
+      "Mezclar yemas y azúcar",
+      "Cuajar sin hervir",
+      "Quemar azúcar"
+    ],
+    "imagen_file": "/static/img/17.jpg"
+  },
+  {
+    "id": 18,
+    "nombre": "Rabo de Toro Cordobés",
+    "region": "Andalucía",
+    "categoria": "Carnes",
+    "tiempo": "180 min",
+    "dificultad": "Media",
+    "imagen": "",
+    "desc": "Meloso con vino tinto Montilla.",
+    "ingredientes": [
+      "Rabo toro 1.5kg",
+      "Vino tinto",
+      "Cebolla, zanahoria, tomate",
+      "Laurel"
+    ],
+    "pasos": [
+      "Dorar rabo",
+      "Sofrito",
+      "Guiso lento 2.5h"
+    ],
+    "imagen_file": "/static/img/18.jpg"
+  },
+  {
+    "id": 19,
+    "nombre": "Arroz Negro con Alioli",
+    "region": "Valencia/Cataluña",
+    "categoria": "Arroces",
+    "tiempo": "50 min",
+    "dificultad": "Media",
+    "imagen": "",
+    "desc": "Con tinta de sepia.",
+    "ingredientes": [
+      "Arroz bomba",
+      "Sepia y tinta",
+      "Fumet pescado",
+      "Alioli"
+    ],
+    "pasos": [
+      "Sofreír sepia",
+      "Añadir arroz y tinta",
+      "Fumet y 18min"
+    ],
+    "imagen_file": "/static/img/19.jpg"
+  },
+  {
+    "id": 20,
+    "nombre": "Pisto Manchego",
+    "region": "La Mancha",
+    "categoria": "Verduras",
+    "tiempo": "50 min",
+    "dificultad": "Fácil",
+    "imagen": "",
+    "desc": "Base de todo, con huevo frito.",
+    "ingredientes": [
+      "Tomate",
+      "Pimiento verde y rojo",
+      "Calabacín",
+      "Cebolla",
+      "Huevo"
+    ],
+    "pasos": [
+      "Pochar pimientos",
+      "Añadir calabacín",
+      "Tomate y lento"
+    ],
+    "imagen_file": "/static/img/20.jpg"
+  },
+  {
+    "id": 21,
+    "nombre": "Zarzuela de Marisco",
+    "region": "Cataluña",
+    "categoria": "Pescados",
+    "tiempo": "70 min",
+    "dificultad": "Alta",
+    "imagen": "",
+    "desc": "La ópera del mar.",
+    "ingredientes": [
+      "Rape, merluza, gambas, mejillones, almejas",
+      "Fumet",
+      "Picada almendra"
+    ],
+    "pasos": [
+      "Dorar pescados",
+      "Sofrito y fumet",
+      "Añadir marisco por tiempos"
+    ],
+    "imagen_file": "/static/img/21.jpg"
+  },
+  {
+    "id": 22,
+    "nombre": "Huevos Rotos con Jamón",
+    "region": "Madrid",
+    "categoria": "Tapas",
+    "tiempo": "15 min",
+    "dificultad": "Fácil",
+    "imagen": "",
+    "desc": "Patatas, huevos y jamón, romper en mesa.",
+    "ingredientes": [
+      "Patatas",
+      "Huevos",
+      "Jamón ibérico"
+    ],
+    "pasos": [
+      "Freír patatas paja gruesa",
+      "Freír huevos",
+      "Montar y romper"
+    ],
+    "imagen_file": "/static/img/22.jpg"
+  },
+  {
+    "id": 23,
+    "nombre": "Bacalao al Pil-Pil",
+    "region": "País Vasco",
+    "categoria": "Pescados",
+    "tiempo": "40 min",
+    "dificultad": "Alta",
+    "imagen": "",
+    "desc": "Emulsión mágica de gelatina y aceite.",
+    "ingredientes": [
+      "Lomos bacalao desalado",
+      "Aceite oliva",
+      "Ajo y guindilla"
+    ],
+    "pasos": [
+      "Confitar ajo",
+      "Cocer bacalao piel arriba lento",
+      "Emulsionar pil-pil moviendo"
+    ],
+    "imagen_file": "/static/img/23.jpg"
+  },
+  {
+    "id": 24,
+    "nombre": "Leche Frita",
+    "region": "Castilla",
+    "categoria": "Postres",
+    "tiempo": "60 min",
+    "dificultad": "Media",
+    "imagen": "",
+    "desc": "Postre de convento.",
+    "ingredientes": [
+      "Leche, harina, azúcar, canela, huevo"
+    ],
+    "pasos": [
+      "Crema espesa",
+      "Enfriar y cortar",
+      "Rebozar y freír"
+    ],
+    "imagen_file": "/static/img/24.jpg"
+  }
+]

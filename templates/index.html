@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comida Culin - Recetas Españolas de Fábrica</title>
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<header>
+  <h1>COMIDA CULIN</h1>
+  <p>24 recetas españolas de fábrica · Conocidas y desconocidas · De Galicia a Almería</p>
+  <div class="search-bar">
+    <input id="q" type="text" placeholder="Busca paella, fabada, ajoblanco, bacalao..." value="{{ q }}">
+    <select onchange="filtrarCategoria(this.value)">
+      <option value="">Todas categorías</option>
+      {% for c in categorias %}
+      <option value="{{ c }}" {% if c==categoria_activa %}selected{% endif %}>{{ c }}</option>
+      {% endfor %}
+    </select>
+    <select onchange="filtrarRegion(this.value)">
+      <option value="">Todas regiones</option>
+      {% for r in regiones %}
+      <option value="{{ r }}" {% if r==region_activa %}selected{% endif %}>{{ r }}</option>
+      {% endfor %}
+    </select>
+    <button onclick="window.location='/'">Limpiar</button>
+  </div>
+</header>
+<div class="container">
+  <div class="filters">
+    <span class="chip active">{{ total }} recetas encontradas</span>
+    {% for c in categorias %}
+    <a class="chip {% if c==categoria_activa %}active{% endif %}" href="/?categoria={{ c }}">{{ c }}</a>
+    {% endfor %}
+  </div>
+  <div class="grid">
+    {% for receta in recetas %}
+    <div class="card" onclick="window.location='/receta/{{ receta.id }}'">
+      <div class="card-top"><img src="{{ receta.imagen_file }}" alt="{{ receta.nombre }}" style="width:100%;height:100%;object-fit:cover"></div>
+      <div class="card-body">
+        <h3>{{ receta.nombre }}</h3>
+        <div class="meta">
+          <span class="tag">📍 {{ receta.region }}</span>
+          <span class="tag">⏱ {{ receta.tiempo }}</span>
+          <span class="tag">👨‍🍳 {{ receta.dificultad }}</span>
+        </div>
+        <div class="desc">{{ receta.desc }}</div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% if recetas|length == 0 %}
+  <p style="text-align:center;margin-top:40px;opacity:.7">No hay recetas con ese filtro. Prueba con paella, tortilla, ajoblanco...</p>
+  {% endif %}
+</div>
+<script src="/static/js/app.js"></script>
+</body>
+</html>

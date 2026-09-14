@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ receta.nombre }} - Comida Culin</title>
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<div class="receta-page">
+  <a class="back" href="/">← Volver a todas</a>
+  <div class="receta-header">
+    <div class="emoji"><img src="{{ receta.imagen_file }}" alt="{{ receta.nombre }}" style="width:100%;max-width:500px;height:320px;object-fit:cover;border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.4)"></div>
+    <h1 style="font-size:2.4rem;margin:10px 0">{{ receta.nombre }}</h1>
+    <p style="opacity:.8">{{ receta.desc }} · {{ receta.region }} · {{ receta.categoria }}</p>
+    <div style="margin-top:12px">
+      <span class="tag">⏱ {{ receta.tiempo }}</span>
+      <span class="tag">👨‍🍳 {{ receta.dificultad }}</span>
+      <span class="tag">📍 {{ receta.region }}</span>
+    </div>
+  </div>
+  <div class="receta-grid">
+    <div class="glass">
+      <h3>🛒 Ingredientes</h3>
+      <ul>
+        {% for ing in receta.ingredientes %}
+        <li>{{ ing }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="glass">
+      <h3>👨‍🍳 Elaboración paso a paso</h3>
+      <ol>
+        {% for paso in receta.pasos %}
+        <li>{{ paso }}</li>
+        {% endfor %}
+      </ol>
+    </div>
+  </div>
+  <div class="glass" style="margin-top:20px;text-align:center">
+    <p>💡 Truco de fábrica: Usa siempre aceite de oliva virgen extra y producto de temporada. La cocina española es producto, fuego lento y cariño.</p>
+    <br>
+    <a class="chip active" href="/">Ver otras {{ 24 }} recetas</a>
+  </div>
+</div>
+</body>
+</html>
