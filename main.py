@@ -1,16 +1,19 @@
-from flask import Flask, send_from_directory
+from flask import Flask, render_template
+import json
 import os
 
-app = Flask(__name__, static_folder='public')
+app = Flask(__name__)
+
+try:
+    with open('data/recetas.json', 'r', encoding='utf-8') as f:
+        RECETAS = json.load(f)
+except:
+    RECETAS = []
 
 @app.route('/')
-def home():
-    return send_from_directory('public', 'index.html')
-
-@app.route('/<path:path>')
-def static_files(path):
-    return send_from_directory('public', path)
+def index():
+    return render_template('index.html', recetas=RECETAS)
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 8000))
+    port = int(os.environ.get('PORT', 10000))
     app.run(host='0.0.0.0', port=port)
